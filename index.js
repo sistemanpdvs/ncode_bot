@@ -4,7 +4,7 @@ const path = require('path')
 const generateBarcodeSvgText = require('./generateBarcodeSvgText.js')
 const generateBarcodeImg = require('./generateBarcodeImg.js')
 
-const token = '781950036:AAHyVg7IiYuFPjc9WoESfVaPonYDjwKrfis'
+const token = '5271067272:AAFgaMvRw1NEgIhhejIixNeweMlKjxG_Ba4'
 
 const bot = new TelegramBot(token, { polling: true })
 
