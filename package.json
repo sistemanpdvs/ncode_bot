@@ -1,0 +1,20 @@
+{
+  "name": "simple-node-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^0.21.4",
+    "jsbarcode": "^3.11.4",
+    "node-telegram-bot-api": "^0.54.0",
+    "sharp": "^0.28.3",
+    "xmldom": "^0.6.0"
+  },
+  "scripts": {
+    "start": "pm2 start index.js --name ean13-bot && pm2 list",
+    "stop": "pm2 stop 0",
+    "save": "git add . && git commit -m save && git push"
+  },
+  "author": "",
+  "license": "ISC"
+}
